@@ -1,4 +1,4 @@
-package task1;
+package task1.orgin;
 
 public class Movie {
 	public static final int CHILDRENS = 2;
@@ -19,5 +19,8 @@ public class Movie {
 
 	public void setPriceCode(int arg){
 		_priceCode = arg;
+	}
+	public String getTitle(){
+		return _title;
 	}
 }
